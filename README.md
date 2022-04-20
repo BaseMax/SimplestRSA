@@ -26,3 +26,5 @@ key = (1 % (phi)) / i;
 encrypt = pow(message, i);
 decrypt = pow(encrypt, key);
 ```
+
+© Copyright Max Base, 2022

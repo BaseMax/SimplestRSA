@@ -4,6 +4,10 @@ Simplest implementation of RSA algorithm **encryption** and **decryption**.
 
 > Richard Feynman: What I cannot create, I do not understand
 
+## What is RSA?
+
+RSA(Rivest-Shamir-Adleman) is an Asymmetric encryption technique that uses two different keys as public and private keys to perform the encryption and decryption. With RSA, you can encrypt sensitive information with a public key and a matching private key is used to decrypt the encrypted message.
+
 ## Using RSA
 
 ```sh

@@ -13,6 +13,8 @@ $ php rsa.php
 ```
 p = 61;
 q = 53;
+message = 517;
+
 n = p * q;
 phi = (p-1)*(q-1);
 i = 2;
@@ -21,7 +23,6 @@ for(; i < phi; i++) {
     if(gcd(i, phi) == 1) break;
 }
 key = (1 % (phi)) / i;
-message = 517;
 encrypt = pow(message, i);
 decrypt = pow(encrypt, key);
 ```

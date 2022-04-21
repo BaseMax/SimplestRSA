@@ -10,7 +10,7 @@ q = 53
 message = 517
 
 n = p * q
-phi = (p-1)*(q-1)
+phi = (p - 1) * (q - 1)
 for i in range(2, phi):
     if math.gcd(i, phi) == 1:
         break

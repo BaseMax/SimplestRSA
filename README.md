@@ -12,6 +12,8 @@ RSA(Rivest-Shamir-Adleman) is an Asymmetric encryption technique that uses two d
 
 ```sh
 $ php rsa.php
+OR
+$ python rsa.py
 ```
 
 ### Semicode

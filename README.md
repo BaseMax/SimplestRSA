@@ -24,9 +24,9 @@ q = 53;
 message = 517;
 
 n = p * q;
-phi = (p-1)*(q-1);
+phi = (p - 1) * (q - 1);
 i = 2;
-gcd(a,b) = (a % b > 0) ? gcd(b,a % b) : b;
+gcd(a, b) = (a % b > 0) ? gcd(b, a % b) : b;
 for(; i < phi; i++) {
     if(gcd(i, phi) == 1) break;
 }

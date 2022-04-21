@@ -4,8 +4,8 @@
 // Simplest RSA
 // https://github.com/BaseMax/SimplestRSA
 
-function gcd($a,$b) {
-    return ($a % $b > 0) ? gcd($b,$a % $b) : $b;
+function gcd($a, $b) {
+    return ($a % $b > 0) ? gcd($b, $a % $b) : $b;
 }
 
 $p = 61;
@@ -13,7 +13,7 @@ $q = 53;
 $message = 517;
 
 $n = $p * $q;
-$phi = ($p-1)*($q-1);
+$phi = ($p - 1) * ($q - 1);
 $i = 2;
 for(; $i < $phi; $i++) {
     if(gcd($i, $phi) == 1) break;
